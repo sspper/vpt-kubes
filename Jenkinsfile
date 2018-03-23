@@ -4,7 +4,7 @@ def podName = 'vpt-node-deployment'
 def buildType = 'node'
 def testFolder = ''
 
-def pipeline = new devops.vptPipeline()
+def pipeline = new devops.vptPipelinev1()
 def additionalRepos = [ : ]
 
 node('docker') {
